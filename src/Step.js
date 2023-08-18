@@ -3,20 +3,18 @@ import React from 'react'
 function Step() {
   return (
     <>
-    <section class="projects-section bg-light" id="step">
+    <section class="projects-section bg-gray" id="step">
             <div class="container px-4 px-lg-5">
-                <br></br>
-                <h3 class="text-center">ขั้นตอนการทำสื่อ</h3>
+                <h3 class="text-center text-black textpad">ขั้นตอนการทำสื่อ</h3>
                 {/* <!-- Project Two Row--> */}
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><br></br><br></br><img class="img-fluid" src="assets/img/slide2.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/slide2.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
-                    <br></br><br></br>
-                        <div class="bg-secondary text-center h-100 project">
+                        <div class="bg-white text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">สื่อ Slide Electronic</h4>
-                                    <p class="mb-0 text-white-50">นำสไลด์การเรียนการสอนของอาจารย์มาปรับปรุง <br></br> เพื่อให้เหมาะสมกับขั้นตอนการทำในข้อถัดไป</p>
+                                    <h4 class="text-black">สื่อ Slide Electronic</h4>
+                                    <p class="mb-0 text-black-50">นำสไลด์การเรียนการสอนของอาจารย์มาปรับปรุง <br></br> เพื่อให้เหมาะสมกับขั้นตอนการทำในข้อถัดไป</p>
                                 </div>
                             </div>
                         </div>
@@ -26,11 +24,11 @@ function Step() {
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/making-video.jpg" alt="..." /></div>
                     <div class="col-lg-6">
-                        <div class="bg-primary text-center h-100 project">
+                        <div class="bg-white text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">บันทึกวีดิทัศน์</h4>
-                                    <p class="mb-0 text-white-50">ทำการอัดวีดิทัศน์ ณ ห้อง Studio ตามตารางกำหนดอัดวีดิทัศน์</p>
+                                    <h4 class="text-black">บันทึกวีดิทัศน์</h4>
+                                    <p class="mb-0 text-black-50">ทำการอัดวีดิทัศน์ ณ ห้อง Studio ตามตารางกำหนดอัดวีดิทัศน์</p>
                                 </div>
                             </div>
                         </div>
@@ -39,11 +37,11 @@ function Step() {
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/online-course2.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
-                        <div class="bg-secondary text-center h-100 project">
+                        <div class="bg-white text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">บทเรียนออนไลน์ (MOOC)</h4>
-                                    <p class="mb-0 text-white-50">ทำการตัดต่อวิดีโอและนำขึ้นระบบ MOOC <br></br> เพื่อเป็นบทเรียนออนไลน์ถัดไป</p>
+                                    <h4 class="text-black">บทเรียนออนไลน์ (MOOC)</h4>
+                                    <p class="mb-0 text-black-50">ทำการตัดต่อวิดีโอและนำขึ้นระบบ MOOC <br></br> เพื่อเป็นบทเรียนออนไลน์ถัดไป</p>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +49,7 @@ function Step() {
                 </div>
                 <br></br> <br></br> <br></br>
                 {/* <!-- Project One Row--> */}
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                {/* <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div><h3 class="text-black text-center">กระบวนการทำสื่อ</h3><br></br></div>
                     <div class="col-xl-4 col-lg-7"><h2 class="text-end">1. &emsp;</h2><br></br></div>
                     <div class="col-xl-8 col-lg-5">
@@ -125,10 +123,68 @@ function Step() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div><h3 class="text-black text-center">รายละเอียดการทำสื่อ</h3><br></br></div>
-                    <div><img class="img-fluid" src="assets/img/process.png" alt="..." /></div>
+                    {/* <div><img class="img-fluid" src="assets/img/process.png" alt="..." /></div> */}
+                    <div>
+                    <table class="table">
+                        <tr class="tr">
+                            <th class="th text-white"><center>ลำดับที่</center></th>
+                            <th class="th text-white"><center>ขั้นตอนการทำสื่อ</center></th>
+                            <th class="th text-white"><center>อาจารย์</center></th>
+                            <th class="th text-white"><center>ITED Team</center></th>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>1</center></td>
+                            <td class="td text-black">จัดเตรียมเนื้อหาในรูปแบบสื่อ Slide Electronic (PPT, Canva)</td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                            <td class="td"><center></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>2</center></td>
+                            <td class="td text-black">ดำเนินการปรับแต่ง Slide Electronic บางส่วนเพื่อให้เหมาะสมกับการจัดทำสื่อในรูปแบบวีดิทัศน์</td>
+                            <td class="td"><center></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>3</center></td>
+                            <td class="td text-black">กำหนดวันเพื่อดำเนินการถ่ายวีดิทัศน์ร่วมกับอาจารย์</td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>4</center></td>
+                            <td class="td text-black">ดำเนินการถ่ายวีดิทัศน์</td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>5</center></td>
+                            <td class="td text-black">ดำเนินการตัดต่อ ปรับแต่งวีดิทัศน์</td>
+                            <td class="td"><center></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>6</center></td>
+                            <td class="td text-black">ดำเนินการออกข้อสอบ หรือแบบทดสอบสำหรับนำเข้าระบบ MOOC</td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>7</center></td>
+                            <td class="td text-black">จัดทำบทเรียนในรูปแบบออนไลน์ในระบบ MOOC</td>
+                            <td class="td"><center></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td"><center>8</center></td>
+                            <td class="td text-black">บริหารจัดการระบบ MOOC</td>
+                            <td class="td"><center></center></td>
+                            <td class="td"><center><i class="fa-solid fa-check"></i></center></td>
+                        </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
