@@ -23,7 +23,7 @@ function Contact() {
                                 <i class="fas fa-envelope mb-2"></i>
                                 <h4 class="text-uppercase m-0">Facebook</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="https://www.facebook.com/profile.php?id=100063697356016">kmutnbmooc</a></div>
+                                <div class="small text-black-50"><a class="text-black-50" href="https://www.facebook.com/profile.php?id=100063697356016">kmutnbmooc</a></div>
                             </div>
                         </div>
                     </div>

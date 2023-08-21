@@ -3,7 +3,7 @@ import React from "react";
 function Step() {
   return (
     <>
-      <section class="projects-section bg-gray" id="step">
+      <section class="projects-section bg-gray">
         <div class="container px-4 px-lg-5">
           {/* <!-- Project One Row--> */}
           <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
@@ -65,6 +65,7 @@ function Step() {
               </div>
             </div>
           </div>
+          <br></br><br id="step"></br>
           <h3 class="text-center text-black textpad">ขั้นตอนการทำสื่อ</h3>
           {/* <!-- Project Two Row--> */}
           <div class="row gx-0 justify-content-center">
@@ -208,6 +209,7 @@ function Step() {
                 </div> */}
           <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
             <div>
+                <br></br>
               <h3 class="text-black text-center">รายละเอียดการทำสื่อ</h3>
               <br></br>
             </div>

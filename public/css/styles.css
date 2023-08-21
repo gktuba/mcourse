@@ -11169,7 +11169,6 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #B74948;
   }
   .featured-text2{
     padding: 0 0 0 2rem;
@@ -11281,6 +11280,10 @@ body {
   padding: 35px;
 }
 
+.textpad2{
+  padding: 5px;
+}
+
 .parallax {
   /* The image used */
   background-image: url("../assets/img/bg-mooc-blue.png");
@@ -11299,4 +11302,19 @@ body {
   background-color: white;
   outline-color: black;
   outline-style: outset;
+}
+
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 70%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

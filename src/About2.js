@@ -9,6 +9,7 @@ function Project() {
           {/* <!-- Featured Project Row--> */}
           <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
             <div class="col-xl-6 col-lg-7">
+                <br></br><br></br><br></br>
               <img
                 class="img-fluid mb-3 mb-lg-0"
                 src="assets/img/plan.jpg"
