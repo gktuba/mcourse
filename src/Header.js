@@ -15,7 +15,7 @@ function Header() {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#top">หน้าแรก</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับโครงการ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">วัตถุประสงค์โครงการ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#step">ขั้นตอนการทำสื่อ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#calendar">กำหนดการบันทึก</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อสอบถาม</a></li>
