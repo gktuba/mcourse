@@ -11274,6 +11274,9 @@ body {
 .calendar {
   width: 1224px;
   height: 764px;
+  position: relative;
+  left: 0px;
+  top: 0px
 }
 
 .textpad{

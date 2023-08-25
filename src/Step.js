@@ -101,7 +101,7 @@ function Step() {
                   <div class="project-text w-100 my-auto text-center text-lg-left">
                     <h4 class="text-black">บันทึกวีดิทัศน์</h4>
                     <p class="mb-0 text-black-50">
-                      ทำการอัดวีดิทัศน์ ณ ห้อง Studio ตามตารางกำหนดอัดวีดิทัศน์
+                      ทำการอัดวีดิทัศน์ ณ ห้อง Studio ตามตารางกำหนดอัดวีดิทัศน์ และทำการตัดต่อวีดิทัศน์
                     </p>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ function Step() {
                   <div class="project-text w-100 my-auto text-center text-lg-right">
                     <h4 class="text-black">บทเรียนออนไลน์ (MOOC)</h4>
                     <p class="mb-0 text-black-50">
-                      ทำการตัดต่อวิดีโอและนำขึ้นระบบ MOOC <br></br>{" "}
+                      และนำขึ้นระบบ MOOC <br></br>{" "}
                       เพื่อเป็นบทเรียนออนไลน์ถัดไป
                     </p>
                   </div>

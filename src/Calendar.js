@@ -9,11 +9,11 @@ function Calendar() {
             <div class="col-lg-12">
               <h2 class="text-black mb-4">ตารางบันทึกวีดิทัศน์</h2>
               <br></br>
-              <div class="googleCalendar googleCalendar iframe">
+              <div class="googleCalendar googleCalendar iframe overflow-hidden">
                 <iframe
                   class="calendar"
                   src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FBangkok&showTitle=0&src=Y184NDJiZjViMjZmZDFjZGNkMDQwYTQ0NDNiYTEwYjI0ZGYyMTI2ZDVlNmVjNjVhOTMyMDhlYWMxMDRhNWRiZjRjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udGgjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%230B8043"
-                  title="Calendar" frameborder="0" scrolling="no"
+                  title="Calendar" frameborder="0" scrolling="no" 
                 ></iframe>
               </div>
             </div>
